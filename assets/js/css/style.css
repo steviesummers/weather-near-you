@@ -64,3 +64,18 @@ color: whitesmoke;
     max-width: 200px;
     margin-top: -20px;
 }
+.days-forecast h2 {
+    font-size: 1.5;
+    margin: 20px;
+}
+.weather-cards {
+    display: flex;
+    gap: 20px;
+}
+.weather-cards .card {
+    color:whitesmoke;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background: blueviolet;
+    
+}
