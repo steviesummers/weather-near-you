@@ -3,12 +3,64 @@ body {
     background-color: whitesmoke;
 } 
 h1 {
-background: blueviolet; 
+color: whitesmoke; 
  padding: 15px 0;
  text-align: center;
  font-size: 2;
  background-color: blueviolet;
- 
- 
- 
+}
+
+.container {
+    display: flex;
+    gap: 1em;
+    padding: 25px;
+
+}
+
+
+.weather-input button {
+    width: 80%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 50px;
+    color: whitesmoke;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.weather-input .location-btn {
+    background: rgb(197, 115, 14);
+}
+
+
+.weather-input input {
+    width: 80%;
+    outline: none;
+    padding: 0 15px;
+    margin: 10px 0 20px 0;
+    font-size: 1rem;
+    border: 1px solid;
+}
+.weather-data {
+    width: 100%;
+}
+
+.current-weather {
+    color: whitesmoke;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    background: blueviolet;
+    justify-content: space-between;
+}
+.weather-data h4 {
+    margin-top: 10px;
+    font-size: 10;
+    font-weight: 300;
+}
+
+.currrent-weather .icon img {
+    max-width: 200px;
+    margin-top: -20px;
 }
